@@ -10,7 +10,6 @@ function getString() returns string {
         io:println(os:getEnv("CLIENT_SECRET"));
 return "ss";
 }
-io:println(x);
 
 service / on new http:Listener(9090) {
     resource function get hello() returns http:Response {

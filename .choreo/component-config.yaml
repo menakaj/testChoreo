@@ -15,9 +15,9 @@ spec:
   # +optional Incoming connection details for the component (AKA Endpoints).
   inbound:
     # +required Unique name for the endpoint. (This name will be used when generating the managed API)
-    - name: testChoreo
+    - name: NewEndpoint
       # +required Numeric port value that gets exposed via this endpoint
-      port: 9090
+      port: 9091
       # +required Type of the traffic this endpoint is accepting. Example: REST, GraphQL, etc.
       # Allowed values: REST, GraphQL, GRPC, TCP, UDP
       type: REST

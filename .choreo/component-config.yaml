@@ -2,7 +2,7 @@ apiVersion: core.choreo.dev/v1alpha1
 kind: ComponentConfig
 metadata:
   # +required Name of the component that this configuration belongs to.
-  name: Travel booking
+  name: NewEndpoint
   # +required Project name of the component that this component belongs to. Cannot be changed after creation.
   projectName: Travel
   annotations:
@@ -23,7 +23,7 @@ spec:
       type: REST
       # +optional Network level visibility of this endpoint. Defaults to Project
       # Accepted values: Project|Organization|Public.
-      visibility: Public
+      networkVisibility: Public
       # +optional Context (base path) of the API that exposed via this endpoint.
       # This is mandatory if the endpoint type is set to REST or GraphQL.
       context: /

@@ -34,8 +34,8 @@ spec:
   outbound:
     # +optional Defines the service references from the internal API marketplace.
     serviceReferences:
-    - name: choreo:///menaka/iyyl/zzhmyb/proxy/1.44.0/PUBLIC
-      connectionConfig: 01eeb694-b00b-1270-afd5-85bbd9d740ba
+    - name: choreo:///apifirst/mttm/mmvhxd/ad088/v1.0/PUBLIC
+      connectionConfig: 01eecca8-0675-180e-9af7-4cfc609262af
       env:
       - from: ServiceURL
         to: SERVICE_URL
